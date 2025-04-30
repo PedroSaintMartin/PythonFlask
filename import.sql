@@ -5,8 +5,9 @@ PRAGMA foreign_keys = true;
 CREATE TABLE user(
     idUser INTEGER PRIMARY KEY AUTOINCREMENT,
     emailUser TEXT,
-    nameUser TEXT,
+    nomeUser TEXT,
+    telefoneUser TEXT,
     senhaUser TEXT
 );
 
-INSERT INTO user ("emailUser", "nameUser", "senhaUser") Values ("teste@teste.com", "teste", "teste123");
+INSERT INTO user ("emailUser", "nomeUser", "telefoneUser", "senhaUser") Values ("teste@teste.com", "teste", "249999999", "teste123");
